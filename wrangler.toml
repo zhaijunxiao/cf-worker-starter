@@ -1,0 +1,29 @@
+name = "cf-worker-sample"
+main = "src/index.ts"
+compatibility_date = "2024-11-28"
+
+# compatibility_flags = [ "nodejs_compat" ]
+
+#[env]
+
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "your-database-name"
+database_id = "your-database-id"
+migrations_dir = "drizzle"
+
+
+# [ai]
+# binding = "AI"
+
+#[observability]
+#enabled = true

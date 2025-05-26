@@ -3,8 +3,6 @@
 
 本模板是基于Cloudflare Worker 和 Cloudflare D1 的开发模板， 使用VS Code 开发， 支持本地断点单步调试， 支持UI操作D1数据库。
 
-**本地开发时使用的是本地D1数据库。也只有本地D1数据库支持断点调试**
-
 **数据库UI界面是利用的Drizzle Studio**
 
 
